@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="MakerLab: ESP32, entegre, sensör ve hazır proje kiti mağazası">
+    <meta name="author" content="Elif">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>MakerLab - Elektronik Komponent & Proje Merkezi</title>
+
+    <!-- Ek Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    
+    <!-- Hexashop Ana CSS Dosyası -->
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+   </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <!-- Şimdilik yazı olarak ekledik, daha sonra buraya bir MakerLab logosu görseli ekleyebiliriz -->
+                            <h4 style="color:#2a2a2a; margin-top:25px;">Maker<span style="color:#28a745;">Lab</span></h4>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Ana Sayfa</a></li>
+                            
+                            <!-- Ürünlerimiz Alt Menüsü -->
+                            <li class="submenu">
+                                <a href="javascript:;">Ürünlerimiz</a>
+                                <ul>
+                                    <li><a href="products.html">Mikrodenetleyiciler</a></li>
+                                    <li><a href="products.html">Sensörler ve Modüller</a></li>
+                                    <li><a href="products.html">Hazır Proje Kitleri</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Birimlerimiz Alt Menüsü -->
+                            <li class="submenu">
+                                <a href="javascript:;">Birimlerimiz</a>
+                                <ul>
+                                    <li><a href="about.html">Ar-Ge Atölyesi</a></li>
+                                    <li><a href="about.html">Eğitim Laboratuvarı</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="scroll-to-section"><a href="#about">Hakkımızda</a></li>
+                            <li class="scroll-to-section"><a href="#mission">Misyon-Vizyon</a></li>
+                            <li class="scroll-to-section"><a href="#contact">İletişim</a></li>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-content">
+                        <div class="thumb">
+                            <div class="inner-content">
+                                <h4>MakerLab'e Hoş Geldiniz</h4>
+                                <span>Elektronik Komponent, Sensör ve Gömülü Sistem Proje Merkezi</span>
+                                <div class="main-border-button">
+                                    <a href="products.html">Ürünleri İncele</a>
+                                </div>
+                            </div>
+                            <!-- Geçici olarak placeholder resim kullanıyoruz, buraya MakerLab ortam resmi gelecek -->
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="MakerLab Atölye" style="height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <div class="row">
+                            <!-- 1. Ürün/Kit -->
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>ESP32 Başlangıç Kiti</h4>
+                                            <span>IoT Projeleri İçin</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>ESP32 Kiti</h4>
+                                                <p>OLED ekran, sensörler ve jumper kablolarla tam bir set.</p>
+                                                <div class="main-border-button">
+                                                    <a href="single-product.html">Detayları İncele</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ESP32 Görseli -->
+                                        <img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="ESP32 Kiti" style="height: 250px; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2. Ürün/Kit -->
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Lojik Devre Seti</h4>
+                                            <span>7400 Serisi & 555 Timer</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Lojik Tasarım</h4>
+                                                <p>Sayıcı devreleri ve temel lojik kapı uygulamaları için ideal.</p>
+                                                <div class="main-border-button">
+                                                    <a href="single-product.html">Detayları İncele</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Devre Elemanları Görseli -->
+                                        <img src="https://via.placeholder.com/400x250/2a2a2a/ffffff?text=Lojik+Devre+Kiti" alt="Lojik Devre" style="height: 250px; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3. Ürün/Kit -->
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Arduino Robotik Set</h4>
+                                            <span>Çizgi İzleyen & Engel Aşan</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Robotik Kiti</h4>
+                                                <p>Motor sürücü, şase ve sensörlerle kendi robotunu yap.</p>
+                                                <div class="main-border-button">
+                                                    <a href="single-product.html">Detayları İncele</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Robotik Görseli -->
+                                        <img src="https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Robotik Set" style="height: 250px; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4. Ürün/Kit -->
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Sensör Modülleri</h4>
+                                            <span>Mesafe, Sıcaklık, Nem</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Sensör Seti</h4>
+                                                <p>Geliştirdiğiniz projelere çevre bilinci kazandırın.</p>
+                                                <div class="main-border-button">
+                                                    <a href="single-product.html">Detayları İncele</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Sensör Görseli -->
+                                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sensörler" style="height: 250px; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Men Area Starts ***** -->
+    <section class="section" id="men">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Men's Latest</h2>
+                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="men-item-carousel">
+                        <div class="owl-men-item owl-carousel">
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/men-01.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Classic Spring</h4>
+                                    <span>$120.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/men-02.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Air Force 1 X</h4>
+                                    <span>$90.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/men-03.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Love Nana ‘20</h4>
+                                    <span>$150.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/men-01.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Classic Spring</h4>
+                                    <span>$120.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Men Area Ends ***** -->
+
+    <!-- ***** Women Area Starts ***** -->
+    <section class="section" id="women">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Women's Latest</h2>
+                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="women-item-carousel">
+                        <div class="owl-women-item owl-carousel">
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/women-01.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>New Green Jacket</h4>
+                                    <span>$75.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/women-02.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Classic Dress</h4>
+                                    <span>$45.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/women-03.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Spring Collection</h4>
+                                    <span>$130.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/women-01.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Classic Spring</h4>
+                                    <span>$120.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Women Area Ends ***** -->
+
+    <!-- ***** Kids Area Starts ***** -->
+    <section class="section" id="kids">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Kid's Latest</h2>
+                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="kid-item-carousel">
+                        <div class="owl-kid-item owl-carousel">
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/kid-01.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>School Collection</h4>
+                                    <span>$80.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/kid-02.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Summer Cap</h4>
+                                    <span>$12.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/kid-03.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Classic Kid</h4>
+                                    <span>$30.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="assets/images/kid-01.jpg" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Classic Spring</h4>
+                                    <span>$120.00</span>
+                                    <ul class="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Kids Area Ends ***** -->
+
+    <!-- ***** Duyurular (Announcements) Area Starts ***** -->
+    <section class="section" id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading text-center">
+                        <h2>Duyurular & Kampanyalar</h2>
+                        <span>MakerLab'deki en güncel atölye, kampanya ve yeniliklerden haberdar olun.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Duyuru 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">1. ESP32-S3 Stoklarda!</h5>
+                            <p class="card-text text-muted">Yapay zeka (TinyML) destekli yeni nesil modüller geldi.</p>
+                            <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#duyuru1">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duyuru 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">2. Hafta Sonu Lehim Atölyesi</h5>
+                            <p class="card-text text-muted">Uygulamalı devre kurulumu eğitimimize kayıtlar başladı.</p>
+                            <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#duyuru2">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duyuru 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">3. Kış İndirimi Başladı</h5>
+                            <p class="card-text text-muted">Tüm sensör kitlerinde ve modüllerde %20 indirim fırsatı.</p>
+                            <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#duyuru3">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duyuru 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">4. TÜBİTAK 4006 Rehberi</h5>
+                            <p class="card-text">Lise öğrencileri için proje başvuru belgeleri yayınlandı.</p>
+                            <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#duyuru4">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duyuru 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">5. 7400 Lojik Entegreler</h5>
+                            <p class="card-text">Sayıcı ve kapı devreleriniz için yeni stoklarımız güncellendi.</p>
+                            <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#duyuru5">Detayları Gör</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daha Fazla Butonu -->
+            <div class="row">
+                <div class="col-lg-12 text-center mt-4">
+                    <div class="main-border-button">
+                        <a href="duyurular.html">Tüm Duyuruları Gör (Daha Fazla)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Duyurular Area Ends ***** -->
+
+    <!-- ================= MODALLAR (Açılır Pencereler) ================= -->
+    
+    <!-- Modal 1 (Resim + PDF örneği) -->
+    <div class="modal fade" id="duyuru1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ESP32-S3 Stoklarda!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="https://via.placeholder.com/800x300/2a2a2a/ffffff?text=ESP32-S3+Modul" class="img-fluid mb-3" alt="Duyuru Resmi">
+            <p>Değerli Maker'lar, makine öğrenmesi projeleriniz için çift çekirdekli yeni ESP32-S3 modüllerimiz stoklarımıza eklenmiştir. Ürün özelliklerini aşağıdaki dosyadan inceleyebilirsiniz.</p>
+            <hr>
+            <h6>Ek Dosyalar:</h6>
+            <!-- Hocanın istediği PDF örneği -->
+            <a href="javascript:;" class="btn btn-sm btn-danger mt-2">ESP32_Datasheet.pdf (İndir)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 (Resim + Word örneği) -->
+    <div class="modal fade" id="duyuru2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Hafta Sonu Lehim Atölyesi</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="https://via.placeholder.com/800x300/28a745/ffffff?text=Lehim+Egitimi" class="img-fluid mb-3" alt="Eğitim">
+            <p>Bu hafta sonu gerçekleşecek olan lehimleme ve prototipleme atölyemize katılım sağlamak için aşağıdaki başvuru formunu doldurup bize iletebilirsiniz.</p>
+            <hr>
+            <h6>Ek Dosyalar:</h6>
+            <!-- Hocanın istediği Word örneği -->
+            <a href="javascript:;" class="btn btn-sm btn-primary mt-2">Basvuru_Formu.docx (İndir)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="duyuru3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Kış İndirimi Başladı</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Kapat"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p>Sepette %20 kış indirimi aktif edilmiştir. DHT11, HC-SR04 gibi temel sensör kitlerinde geçerlidir.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 (PDF örneği) -->
+    <div class="modal fade" id="duyuru4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">TÜBİTAK 4006 Rehberi</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Kapat"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p>TÜBİTAK bilim fuarları için hazırladığımız proje fikirleri rehberi yayınlandı.</p>
+            <hr>
+            <a href="javascript:;" class="btn btn-sm btn-danger mt-2">Proje_Rehberi.pdf</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="duyuru5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">7400 Lojik Entegreler</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Kapat"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <p>74LS serisi kapı (AND, OR, NOT) ve sayıcı (JK Flip-Flop) entegrelerimizin stokları yenilendi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Social Area Starts ***** -->
+    <section class="section" id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Social Media</h2>
+                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row images">
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Fashion</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="assets/images/instagram-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>New</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="assets/images/instagram-02.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Brand</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="assets/images/instagram-03.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Makeup</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="assets/images/instagram-04.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Leather</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="assets/images/instagram-05.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Bag</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="assets/images/instagram-06.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Social Area Ends ***** -->
+
+    <!-- ***** Subscribe Area Starts ***** -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
+                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                    </div>
+                    <form id="subscribe" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-2">
+                            <fieldset>
+                              <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                            </fieldset>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>Store Location:<br><span>Sunny Isles Beach, FL 33160, United States</span></li>
+                                <li>Phone:<br><span>010-020-0340</span></li>
+                                <li>Office Location:<br><span>North Miami Beach</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
+                                <li>Email:<br><span>info@company.com</span></li>
+                                <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Subscribe Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="first-item">
+                        <div class="logo">
+                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
+                        </div>
+                        <ul>
+                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
+                            <li><a href="#">hexashop@company.com</a></li>
+                            <li><a href="#">010-020-0340</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Shopping &amp; Categories</h4>
+                    <ul>
+                        <li><a href="#">Men’s Shopping</a></li>
+                        <li><a href="#">Women’s Shopping</a></li>
+                        <li><a href="#">Kid's Shopping</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Help &amp; Information</h4>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Tracking ID</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="under-footer">
+                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. 
+                        
+                        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>
